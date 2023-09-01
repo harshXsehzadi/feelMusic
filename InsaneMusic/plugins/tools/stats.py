@@ -172,7 +172,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🌹 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Dosto_ki_Mehfil786) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🌹 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/FEELING_GANA) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
                     msg += f"🌹 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
@@ -278,7 +278,7 @@ async def overall_stats(client, CallbackQuery, _):
  ╰🧸 Pʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ ~ {playlist_limit}
  ╰🎓 Pʟᴀʏʟɪsᴛ ᴩʟᴀʏ ʟɪᴍɪᴛ ~ {fetch_playlist}
       •──────✦──────•
- Pᴏᴡᴇʀᴇᴅ ʙʏ @TheTeamInsane
+ Pᴏᴡᴇʀᴇᴅ ʙʏ @FEELING_GANA
       •──────✦──────• """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
